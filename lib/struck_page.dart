@@ -73,7 +73,23 @@ class _StruckPageState extends State<StruckPage> {
                         Text("Mie Sedap"),
                         Text("2"),
                         Text("5000"),
-                        Text("10000"),
+                        Text("10.000"),
+                      ]
+                    ),
+                    TableRow( 
+                      children: [
+                        Text("Saus"),
+                        Text("2"),
+                        Text("100000"),
+                        Text("200.000"),
+                      ]
+                    ),
+                    TableRow( 
+                      children: [
+                        Text("Susu Hilo"),
+                        Text("1"),
+                        Text("100000"),
+                        Text("100.000"),
                       ]
                     )
                   ],
@@ -86,7 +102,7 @@ class _StruckPageState extends State<StruckPage> {
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                      Text("TOTAL: 10000",
+                      Text("TOTAL: 31.0000",
                       style: TextStyle(fontWeight: FontWeight.bold,),),
                     ],
                   ),
@@ -98,14 +114,14 @@ class _StruckPageState extends State<StruckPage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text("JUMLAH UANG: ", style: TextStyle(fontWeight: FontWeight.bold,),),
-                    Text("20000",),
+                    Text("Rp 400.000",),
                   ],
                 ),
                 const Row( 
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text("KEMBALIAN: ", style: TextStyle(fontWeight: FontWeight.bold,),),
-                    Text("10000",),
+                    Text("Rp 90.000",),
                   ],
                 ),
           
